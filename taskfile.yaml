@@ -1,0 +1,25 @@
+version: "3"
+
+dotenv:
+  - .env.task
+
+tasks:
+  init:
+    desc: Initialize project
+    cmds:
+      - lefthook install
+
+  build:
+    desc: Gradle build
+    cmds:
+      - gradle clean build
+
+  kdoc:
+    desc: Kdoc build
+    cmds:
+      - gradle dokkaHtml
+
+  publish:
+    desc: Publish to Maven Central
+    cmds:
+      - gradle publishToMavenCentral --no-configuration-cache

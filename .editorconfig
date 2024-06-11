@@ -1,0 +1,98 @@
+# EditorConfig is awesome:http://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Don't use tabs for indentation.
+[*]
+indent_style = space
+end_of_line = lf
+insert_final_newline = true
+# (Please don't specify an indent_size here; that has too many unintended consequences.)
+
+# Kotlin files
+[*.{kt,kts}]
+indent_size = 2
+
+# Ktlint official code style
+ktlint_code_style = ktlint_official
+ktlint_standard = enabled
+
+# Removes semicolons
+ktlint_standard_no-semi = disabled
+
+# Disallows using wildcard `*` in imports
+ktlint_standard_no-wildcard-imports = disabled
+
+# Enforces naming Kotlin files according to the officially instructed conventions
+ktlint_standard_filename = enabled
+
+# Disallows `()` before trailing lambda
+ktlint_standard_unnecessary-parentheses-before-trailing-lambda = enabled
+
+# Turns `${}` into `$` in string template if only the variable name is used
+ktlint_standard_string-template = enabled
+
+# Java, Gradle files
+[*.{java,gradle}]
+indent_size = 2
+
+# Gradle Wrapper file
+[gradlew]
+indent_size = 2
+
+# Maven Wrapper file
+[mvnw]
+indent_size = 2
+
+# GraphQL files
+[*.{graphql,graphqls,gql}]
+indent_size = 2
+
+# Rust files
+[*.rs]
+indent_size = 2
+
+# HTML, CSS, Sass, SCSS, Markdown, MDX files
+[*.{html,css,sass,scss,md,mdx}]
+indent_size = 2
+
+# JSON, TOML, XML, YAML files
+[*.{json,toml,xml,yaml}]
+indent_size = 2
+
+# Shell Script, Text & Log files
+[*.{sh,txt,log}]
+indent_size = 2
+
+# TypeScript, JavaScript files
+[*.{ts,tsx,cts,mts,js,jsx,cjs,mjs}]
+indent_size = 2
+
+# Python files
+[*.{py,ipynb}]
+indent_size = 2
+
+# C, C++ files
+[*.{c,cpp}]
+indent_size = 2
+
+# Go files
+[*.go]
+indent_size = 2
+
+# .Net files
+[*.{vb,vbx,razor,cake}]
+indent_size = 2
+
+# .Net Xml project files
+[*.{csproj,vbproj,vcxproj,vcxproj.filters,proj,projitems,shproj}]
+indent_size = 2
+
+# .Net Xml config files
+[*.{props,targets,ruleset,config,nuspec,resx,vsixmanifest,vsct}]
+indent_size = 2
+
+# C# files:
+[*.{cs,csx}]
+indent_size = 2
