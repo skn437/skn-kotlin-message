@@ -1,10 +1,10 @@
-@file:Suppress("ktlint:standard:filename", "RedundantSemicolon")
+@file:Suppress("ktlint:standard:filename")
 
-package utils.message;
+package utils.message
 
-import utils.color.blue;
-import utils.color.green;
-import utils.color.red;
+import utils.color.blue
+import utils.color.green
+import utils.color.red
 
 /**
  * Message object that contains some methods to print notification messages
@@ -20,7 +20,7 @@ object Message {
    * Example:
    *
    * ```kotlin
-   * println(Message.errorConsole("Task failed!"));
+   * println(Message.errorConsole("Task failed!"))
    * ```
    *
    * @param message a String containing the actual error message
@@ -35,7 +35,7 @@ object Message {
    * Example:
    *
    * ```kotlin
-   * println(Message.errorServer("Failed to send mail!"));
+   * println(Message.errorServer("Failed to send mail!"))
    * ```
    *
    * @param message a String containing the actual error message
@@ -50,7 +50,7 @@ object Message {
    * Example:
    *
    * ```kotlin
-   * println(Message.successConsole("Task finished successfully!"));
+   * println(Message.successConsole("Task finished successfully!"))
    * ```
    *
    * @param message a String containing the actual success message
@@ -65,7 +65,7 @@ object Message {
    * Example:
    *
    * ```kotlin
-   * println(Message.successServer("Mail sent successfully!"));
+   * println(Message.successServer("Mail sent successfully!"))
    * ```
    *
    * @param message a String containing the actual success message
@@ -81,7 +81,7 @@ object Message {
    * Example:
    *
    * ```kotlin
-   * println(Message.infoConsole("The task can be closed as the service has already been started!"));
+   * println(Message.infoConsole("The task can be closed as the service has already been started!"))
    * ```
    *
    * @param message a String containing the actual info message
@@ -94,7 +94,7 @@ object Message {
    * Outputs info message of blue colored variant as server response on API request success/failure
    *
    * ```kotlin
-   * println(Message.infoServer("The current process can be stopped as its only purpose was to initiate the service"));
+   * println(Message.infoServer("The current process can be stopped as its only purpose was to initiate the service"))
    * ```
    *
    * @param message a String containing the actual info message

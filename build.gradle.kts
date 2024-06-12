@@ -1,4 +1,5 @@
 import com.vanniktech.maven.publish.SonatypeHost
+import org.jetbrains.dokka.gradle.DokkaTask
 
 plugins {
   kotlin("jvm") version "1.9.24"
@@ -14,7 +15,7 @@ repositories {
 }
 
 dependencies {
-  implementation("best.skn:skn-kotlin-color:1.0.0")
+  implementation("best.skn:skn-kotlin-color:1.0.1")
   testImplementation(kotlin("test"))
 }
 
@@ -24,6 +25,28 @@ tasks.test {
 
 kotlin {
   jvmToolchain(21)
+}
+
+fun dokkaMd(): Array<String> {
+  val path: String = "./.dokka"
+
+  val fileNames: Array<String> = arrayOf("module", "utils_message")
+
+  fileNames.forEachIndexed { index, element ->
+    val extension: String = if (index == 0) ".md" else ".package.md"
+
+    fileNames[index] = "$path/$element$extension"
+  }
+
+  return fileNames
+}
+
+tasks.withType<DokkaTask>().configureEach {
+  dokkaSourceSets {
+    named("main") {
+      includes.from(*dokkaMd())
+    }
+  }
 }
 
 mavenPublishing {

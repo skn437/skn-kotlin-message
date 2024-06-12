@@ -1,42 +1,116 @@
+# Add files here to ignore them from git committing
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Local Env Files
+.env*.local
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Compiled Output
+dist
+tmp
+out-tsc
+build
+
+# Node.js
+node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.logs
+
+# Others
+**/*.trace
+**/*.zip
+**/*.tar.gz
+**/*.tgz
+**/*.log
+**/*.bun
+
+# PNPM, NPM, YARN & Bun Lock Files
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+bun.lockb
+
+# Typescript
+*.tsbuildinfo
+
+# Next.js
+.next
+out
+.swc
+next-env.d.ts
+
+# Cypress
+cypress/videos
+cypress/screenshots
+
+# Vercel
+.vercel
+
+# Vite
+.output
+package
+
+# Svelte-Kit
+.svelte-kit
+
+# Test
+coverage
+
+# Storybook
+storybook-static
+
+# Husky
+.husky/_
+
+# Java
+apidocs
+.apidocs
+
+# Kotlin
+.kotlin
+
+# GraphQL
+.gen
+.codegen
+
+# Spring Boot
+HELP.md
 .gradle
-build/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
-*.iws
-*.iml
-*.ipr
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+# Cargo
+target
+Cargo.lock
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+# C/C++
+output
+.cache
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# C#
+obj
+bin
 
-### VS Code ###
-.vscode/
+# Blazor
+*.razor.css
+*.razor.css.map
+wwwroot
 
-### Mac OS ###
-.DS_Store
+# NuGet Packages
+*.nupkg
+packages
+
+# VS Code/JetBrains IDE
+!icon.tar.gz
+!*-settings.zip

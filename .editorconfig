@@ -19,10 +19,10 @@ ktlint_code_style = ktlint_official
 ktlint_standard = enabled
 
 # Removes semicolons
-ktlint_standard_no-semi = disabled
+ktlint_standard_no-semi = enabled
 
 # Disallows using wildcard `*` in imports
-ktlint_standard_no-wildcard-imports = disabled
+ktlint_standard_no-wildcard-imports = enabled
 
 # Enforces naming Kotlin files according to the officially instructed conventions
 ktlint_standard_filename = enabled
