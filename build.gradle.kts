@@ -2,7 +2,7 @@ import com.vanniktech.maven.publish.SonatypeHost
 import org.jetbrains.dokka.gradle.DokkaTask
 
 plugins {
-  kotlin("jvm") version "1.9.24"
+  kotlin("jvm") version "2.0.0"
   id("org.jetbrains.dokka") version "1.9.20"
   id("com.vanniktech.maven.publish") version "0.28.0"
 }
