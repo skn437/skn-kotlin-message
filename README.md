@@ -1,6 +1,6 @@
 # SKN Kotlin Message Library
 
-<img width="150px" src="https://firebasestorage.googleapis.com/v0/b/skn-ultimate-project-la437.appspot.com/o/GitHub%20Library%2F11-Kotlin-SKM.svg?alt=media&token=5e39668e-b018-412c-aae0-df543b7f95fb" alt="kotlin" />
+<img width="150px" src="./public/letter-open.svg" alt="kotlin" />
 
 > Kotlin
 
@@ -91,8 +91,9 @@
 
 ## **_Dedicated To:_**
 
-- 👩‍🎨`Prodipta Das Logno` & 🧛‍♀️`Atoshi Sarker Prithula`: The two most special ladies of my life. My best wishes will always be with you two. May you two always be happy.
+- 👩‍🎨`Logno` & 🧛‍♀️`Atoshi`: The two most special ladies of my life. My best wishes will always be with you two.
 - 💯`My Parents`: The greatest treasures of my life ever.
+- 👩`Trina`: The lady who resides deep inside my heart. Our paths got separated, perhaps it was fate and I accepted it. But you are always in each and every moments of my life. May you be healthy and happy always.
 
 &nbsp;
 
